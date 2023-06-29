@@ -1,0 +1,13 @@
+/Users/vladbuzilov/Desktop/cs/DOUWebSiteTestSelenium/DOUWebSiteTestSelenium/bin/Debug/selenium-manager/linux/selenium-manager
+/Users/vladbuzilov/Desktop/cs/DOUWebSiteTestSelenium/DOUWebSiteTestSelenium/bin/Debug/selenium-manager/macos/selenium-manager
+/Users/vladbuzilov/Desktop/cs/DOUWebSiteTestSelenium/DOUWebSiteTestSelenium/bin/Debug/selenium-manager/windows/selenium-manager.exe
+/Users/vladbuzilov/Desktop/cs/DOUWebSiteTestSelenium/DOUWebSiteTestSelenium/bin/Debug/DOUWebSiteTestSelenium.dll
+/Users/vladbuzilov/Desktop/cs/DOUWebSiteTestSelenium/DOUWebSiteTestSelenium/bin/Debug/DOUWebSiteTestSelenium.pdb
+/Users/vladbuzilov/Desktop/cs/DOUWebSiteTestSelenium/DOUWebSiteTestSelenium/bin/Debug/nunit.framework.dll
+/Users/vladbuzilov/Desktop/cs/DOUWebSiteTestSelenium/DOUWebSiteTestSelenium/bin/Debug/WebDriver.dll
+/Users/vladbuzilov/Desktop/cs/DOUWebSiteTestSelenium/DOUWebSiteTestSelenium/bin/Debug/nunit.framework.xml
+/Users/vladbuzilov/Desktop/cs/DOUWebSiteTestSelenium/DOUWebSiteTestSelenium/obj/Debug/DOUWebSiteTestSelenium.csproj.AssemblyReference.cache
+/Users/vladbuzilov/Desktop/cs/DOUWebSiteTestSelenium/DOUWebSiteTestSelenium/obj/Debug/DOUWebSiteTestSelenium.csproj.CoreCompileInputs.cache
+/Users/vladbuzilov/Desktop/cs/DOUWebSiteTestSelenium/DOUWebSiteTestSelenium/obj/Debug/DOUWebSiteTestSelenium.csproj.CopyComplete
+/Users/vladbuzilov/Desktop/cs/DOUWebSiteTestSelenium/DOUWebSiteTestSelenium/obj/Debug/DOUWebSiteTestSelenium.dll
+/Users/vladbuzilov/Desktop/cs/DOUWebSiteTestSelenium/DOUWebSiteTestSelenium/obj/Debug/DOUWebSiteTestSelenium.pdb
