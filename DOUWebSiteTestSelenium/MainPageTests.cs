@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using DOUWebSiteTestSelenium.PageObjects;
 using NUnit.Framework;
 using OpenQA.Selenium;
@@ -23,13 +24,33 @@ namespace DOUWebSiteTestSelenium
             _webDriver.Manage().Window.Maximize();
         }
 
-        [Test] public void MainPageTabTest()
+        //Tab tests
+        //==================================================================================================================
+        [Test] public void MainPageFirstWorkTest()
         {
-            var mainPageTab = new MainPageObject(_webDriver);
-            mainPageTab.FirstWork().BackToMain();
+            var mainPage = new MainPageObject(_webDriver);
+            mainPage.FirstWork().BackToMain();
         }
 
-        [TearDown] public void TearDown()
+        [Test] public void MainPageITCareerTest()
+        {
+            var mainPage = new MainPageObject(_webDriver);
+            mainPage.ITCareer().BackToMain();
+        }
+
+        [Test] public void MainPageWorkMarket()
+        {
+            var mainPage = new MainPageObject(_webDriver);
+            mainPage.WorkMarket().BackToMain();
+        }
+
+        [Test] public void MainPageTop50Companies()
+        {
+            var mainPage = new MainPageObject(_webDriver);
+            mainPage.Top50Companies().BackToMain();
+        }
+
+        [OneTimeTearDown] public void TearDown()
         {
             _webDriver.Quit();
         }
