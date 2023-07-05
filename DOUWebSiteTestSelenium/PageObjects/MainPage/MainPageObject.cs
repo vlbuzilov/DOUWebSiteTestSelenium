@@ -1,3 +1,4 @@
+using DOUWebSiteTestSelenium.PageObjects.ForumPage;
 using DOUWebSiteTestSelenium.PageObjects.PageObjectsFromMainPaige;
 using OpenQA.Selenium;
 
@@ -13,6 +14,9 @@ namespace DOUWebSiteTestSelenium.PageObjects
         private readonly By _ITCareerebutton = By.XPath("//a[@style='color:#ae0000' and text()='Кар’єра в IT']");
         private readonly By _workMarketButton = By.XPath("//a[@style='color:#00ae00' and text()='Ринок праці']");
         private readonly By _top50CompaniesButton = By.XPath("//a[@style='color:#6699FF;' and text()='Топ-50']");
+
+        //paths for rediecting
+        private readonly By _forumButton = By.XPath("//a[@href='https://dou.ua/forums/' and text()='Форум']");
 
         public MainPageObject(IWebDriver webDriver)
         {
@@ -45,6 +49,14 @@ namespace DOUWebSiteTestSelenium.PageObjects
             _webDriver.FindElement(_top50CompaniesButton).Click();
 
             return new Top50CompaniesPageObject(_webDriver);
+        }
+        
+        //redirecting
+        public ForumPageObject RedirectToForumPageObject()
+        {
+            _webDriver.FindElement(_forumButton).Click();
+
+            return new ForumPageObject(_webDriver);
         }
     }
 }

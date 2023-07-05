@@ -46,13 +46,17 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="PageObjects\ForumPage\BlogsPageObject.cs" />
+        <Compile Include="PageObjects\ForumPage\ForumPageObject.cs" />
+        <Compile Include="PageObjects\ForumPage\TechnicalArticlesPageObject.cs" />
         <Compile Include="PageObjects\MainPage\MainPageObject.cs" />
         <Compile Include="PageObjects\MainPage\PageObjectsFromMainPaige\FirstWorkPageObject.cs" />
         <Compile Include="PageObjects\MainPage\PageObjectsFromMainPaige\ITCareerPageObject.cs" />
         <Compile Include="PageObjects\MainPage\PageObjectsFromMainPaige\Top50CompaniesPageObject.cs" />
         <Compile Include="PageObjects\MainPage\PageObjectsFromMainPaige\WorkMarketPageObject.cs" />
+        <Compile Include="PageObjects\Tests\ForumPageTests.cs" />
+        <Compile Include="PageObjects\Tests\MainPageTests.cs" />
         <Compile Include="Settings.cs" />
-        <Compile Include="MainPageTests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="UserInfoForTests.cs" />
     </ItemGroup>

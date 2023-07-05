@@ -25,7 +25,7 @@ namespace DOUWebSiteTestSelenium
         }
 
         //Tab tests
-        //==================================================================================================================
+        //==================================================================================================================w
         [Test] public void MainPageFirstWorkTest()
         {
             var mainPage = new MainPageObject(_webDriver);
@@ -49,6 +49,7 @@ namespace DOUWebSiteTestSelenium
             var mainPage = new MainPageObject(_webDriver);
             mainPage.Top50Companies().BackToMain();
         }
+        //================================================================================================================
 
         [OneTimeTearDown] public void TearDown()
         {
