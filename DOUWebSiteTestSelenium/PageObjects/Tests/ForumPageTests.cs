@@ -16,6 +16,12 @@ namespace DOUWebSiteTestSelenium
             _webDriver = new ChromeDriver();
         }
 
+        [SetUp] public void SetUp()
+        {
+            _webDriver.Manage().Cookies.DeleteAllCookies();
+            _webDriver.Navigate().GoToUrl(Settings.URLAddress);
+            _webDriver.Manage().Window.Maximize();
+        }
         
         //tests
         //======================================================================================================================================
@@ -38,13 +44,7 @@ namespace DOUWebSiteTestSelenium
             
             Assert.AreEqual(result, true);
         }
-
-        [SetUp] public void SetUp()
-        {
-            _webDriver.Manage().Cookies.DeleteAllCookies();
-            _webDriver.Navigate().GoToUrl(Settings.URLAddress);
-            _webDriver.Manage().Window.Maximize();
-        }
+        
         
         [OneTimeTearDown] public void TearDown()
         {

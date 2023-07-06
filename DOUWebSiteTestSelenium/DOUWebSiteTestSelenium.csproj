@@ -46,6 +46,11 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="PageObjects\FeedPageObject\AnalyticsPageObject.cs" />
+        <Compile Include="PageObjects\FeedPageObject\ArticlesFeedPageObject.cs" />
+        <Compile Include="PageObjects\FeedPageObject\FeedPageObject.cs" />
+        <Compile Include="PageObjects\FeedPageObject\InterviewsPageObject.cs" />
+        <Compile Include="PageObjects\FeedPageObject\NewsPageObject.cs" />
         <Compile Include="PageObjects\ForumPage\BlogsPageObject.cs" />
         <Compile Include="PageObjects\ForumPage\ForumPageObject.cs" />
         <Compile Include="PageObjects\ForumPage\TechnicalArticlesPageObject.cs" />
@@ -54,6 +59,7 @@
         <Compile Include="PageObjects\MainPage\PageObjectsFromMainPaige\ITCareerPageObject.cs" />
         <Compile Include="PageObjects\MainPage\PageObjectsFromMainPaige\Top50CompaniesPageObject.cs" />
         <Compile Include="PageObjects\MainPage\PageObjectsFromMainPaige\WorkMarketPageObject.cs" />
+        <Compile Include="PageObjects\Tests\FeedPageTests.cs" />
         <Compile Include="PageObjects\Tests\ForumPageTests.cs" />
         <Compile Include="PageObjects\Tests\MainPageTests.cs" />
         <Compile Include="Settings.cs" />

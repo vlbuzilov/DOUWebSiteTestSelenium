@@ -17,6 +17,7 @@ namespace DOUWebSiteTestSelenium.PageObjects
 
         //paths for rediecting
         private readonly By _forumButton = By.XPath("//a[@href='https://dou.ua/forums/' and text()='Форум']");
+        private readonly By _feedButton = By.XPath("//a[@href='https://dou.ua/lenta/']");
 
         public MainPageObject(IWebDriver webDriver)
         {
@@ -57,6 +58,13 @@ namespace DOUWebSiteTestSelenium.PageObjects
             _webDriver.FindElement(_forumButton).Click();
 
             return new ForumPageObject(_webDriver);
+        }
+
+        public FeedPageObject.FeedPageObject RedirectToFeedPageObject()
+        {
+            _webDriver.FindElement(_feedButton).Click();
+
+            return new FeedPageObject.FeedPageObject(_webDriver);
         }
     }
 }
